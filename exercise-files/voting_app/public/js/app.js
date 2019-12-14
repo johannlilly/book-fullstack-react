@@ -3,8 +3,8 @@ class ProductList extends React.Component {
   render() {
     return (
       <div className='ui unstackable items'>
-        Hello, friend! I am a basic React component.
-            </div>
+        <Product />
+      </div>
     );
   }
 }
@@ -28,6 +28,6 @@ class Product extends React.Component {
 }
 
 ReactDOM.render(
-  <ProductList />, // what to render
-  document.getElementById('content') // where to render it
+  <ProductList />,
+  document.getElementById('content')
 );
