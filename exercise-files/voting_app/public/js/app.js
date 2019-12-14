@@ -1,3 +1,5 @@
+// We’ve defined the component, but we haven’t told React to do anything with it yet. 
+
 class ProductList extends React.Component {
     render() {
       return (
@@ -8,7 +10,3 @@ class ProductList extends React.Component {
     }
   }
   
-ReactDOM.render(
-    <ProductList />,
-    document.getElementById('content')
-);
