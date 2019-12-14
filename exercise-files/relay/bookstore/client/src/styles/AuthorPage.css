@@ -1,0 +1,19 @@
+.authorName h1 {
+  display: inline;
+  font-size: 3em;
+}
+
+.ui.items > .item .authorName .extra {
+  display: inline;
+  margin-left: 1em;
+  position: relative;
+  top: -6px;
+}
+
+.authorPage .ui.items > .item > .content {
+  padding-left: 1em;
+}
+
+.authorPage .ui.rounded.image {
+  border-radius: 0.7em;
+}

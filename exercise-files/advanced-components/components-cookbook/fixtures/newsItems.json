@@ -1,0 +1,980 @@
+[
+  {
+    "web_url": "http://www.nytimes.com/2016/03/23/opinion/how-america-can-put-thailand-back-on-track.html",
+    "snippet": "Washington should rein in the junta's increasingly dictatorial ways by isolating it from traditional Bangkok-based elites.",
+    "lead_paragraph": "Washington should rein in the junta's increasingly dictatorial ways by isolating it from traditional Bangkok-based elites.",
+    "abstract": null,
+    "print_page": null,
+    "blog": [],
+    "source": "The New York Times",
+    "multimedia": [
+      {
+        "width": 190,
+        "url": "images/2016/03/23/opinion/23joehnk/23joehnk-thumbWide.jpg",
+        "height": 126,
+        "subtype": "wide",
+        "legacy": {
+          "wide": "images/2016/03/23/opinion/23joehnk/23joehnk-thumbWide.jpg",
+          "wideheight": "126",
+          "widewidth": "190"
+        },
+        "type": "image"
+      },
+      {
+        "width": 600,
+        "url": "images/2016/03/23/opinion/23joehnk/23joehnk-articleLarge.jpg",
+        "height": 680,
+        "subtype": "xlarge",
+        "legacy": {
+          "xlargewidth": "600",
+          "xlarge": "images/2016/03/23/opinion/23joehnk/23joehnk-articleLarge.jpg",
+          "xlargeheight": "680"
+        },
+        "type": "image"
+      },
+      {
+        "width": 75,
+        "url": "images/2016/03/23/opinion/23joehnk/23joehnk-thumbStandard.jpg",
+        "height": 75,
+        "subtype": "thumbnail",
+        "legacy": {
+          "thumbnailheight": "75",
+          "thumbnail": "images/2016/03/23/opinion/23joehnk/23joehnk-thumbStandard.jpg",
+          "thumbnailwidth": "75"
+        },
+        "type": "image"
+      }
+    ],
+    "headline": {
+      "main": "How America Can Put Thailand Back on Track",
+      "content_kicker": "Op-Ed Contributors",
+      "kicker": "Op-Ed Contributors",
+      "print_headline": "How America Can Put Thailand Back on Track"
+    },
+    "keywords": [],
+    "pub_date": "2016-03-23T11:30:00Z",
+    "document_type": "article",
+    "news_desk": "OpEd",
+    "section_name": "Opinion",
+    "subsection_name": null,
+    "byline": {
+      "person": [
+        {
+          "firstname": "Tom",
+          "middlename": "Felix",
+          "lastname": "JOEHNK",
+          "rank": 1,
+          "role": "reported",
+          "organization": ""
+        },
+        {
+          "organization": "",
+          "role": "reported",
+          "firstname": "Ilya",
+          "rank": 2,
+          "lastname": "GARGER"
+        }
+      ],
+      "original": "By TOM FELIX JOEHNK and ILYA GARGER"
+    },
+    "type_of_material": "Op-Ed",
+    "_id": "56f1709079881066516b251a",
+    "word_count": "1073",
+    "slideshow_credits": null
+  },
+  {
+    "web_url": "http://www.nytimes.com/2016/03/23/sports/soccer/barcelona-buddies-messi-neymar-suarez-will-be-rivals-world-cup-qualifying.html",
+    "snippet": "The pride of Europe scatters for World Cup qualifiers Thursday in South America, with Barcelona teammates facing each other.",
+    "lead_paragraph": "The pride of Europe scatters for World Cup qualifiers Thursday in South America, with Barcelona teammates facing each other.",
+    "abstract": null,
+    "print_page": null,
+    "blog": [],
+    "source": "The New York Times",
+    "multimedia": [
+      {
+        "width": 190,
+        "url": "images/2016/03/23/sports/23hughes/23hughes-thumbWide.jpg",
+        "height": 126,
+        "subtype": "wide",
+        "legacy": {
+          "wide": "images/2016/03/23/sports/23hughes/23hughes-thumbWide.jpg",
+          "wideheight": "126",
+          "widewidth": "190"
+        },
+        "type": "image"
+      },
+      {
+        "width": 600,
+        "url": "images/2016/03/23/sports/23hughes/23hughes-articleLarge.jpg",
+        "height": 400,
+        "subtype": "xlarge",
+        "legacy": {
+          "xlargewidth": "600",
+          "xlarge": "images/2016/03/23/sports/23hughes/23hughes-articleLarge.jpg",
+          "xlargeheight": "400"
+        },
+        "type": "image"
+      },
+      {
+        "width": 75,
+        "url": "images/2016/03/23/sports/23hughes/23hughes-thumbStandard.jpg",
+        "height": 75,
+        "subtype": "thumbnail",
+        "legacy": {
+          "thumbnailheight": "75",
+          "thumbnail": "images/2016/03/23/sports/23hughes/23hughes-thumbStandard.jpg",
+          "thumbnailwidth": "75"
+        },
+        "type": "image"
+      }
+    ],
+    "headline": {
+      "main": "Barcelona Buddies Will Be Fierce Rivals This Week",
+      "content_kicker": "Global Soccer",
+      "print_headline": "Barcelona Buddies Will Be Fierce Rivals This Week"
+    },
+    "keywords": [
+      {
+        "rank": "1",
+        "is_major": "N",
+        "name": "subject",
+        "value": "Soccer"
+      },
+      {
+        "rank": "2",
+        "is_major": "N",
+        "name": "organizations",
+        "value": "Barcelona (Soccer Team)"
+      },
+      {
+        "rank": "3",
+        "is_major": "N",
+        "name": "persons",
+        "value": "Messi, Lionel"
+      },
+      {
+        "rank": "4",
+        "is_major": "N",
+        "name": "persons",
+        "value": "Neymar"
+      },
+      {
+        "rank": "5",
+        "is_major": "N",
+        "name": "persons",
+        "value": "Suarez, Luis (1987- )"
+      },
+      {
+        "rank": "6",
+        "is_major": "N",
+        "name": "subject",
+        "value": "World Cup 2018 (Soccer)"
+      },
+      {
+        "rank": "7",
+        "is_major": "N",
+        "name": "subject",
+        "value": "Copa America (Soccer)"
+      }
+    ],
+    "pub_date": "2016-03-23T11:30:00Z",
+    "document_type": "article",
+    "news_desk": "Sports",
+    "section_name": "Sports",
+    "subsection_name": "Soccer",
+    "byline": {
+      "person": [
+        {
+          "organization": "",
+          "role": "reported",
+          "firstname": "Rob",
+          "rank": 1,
+          "lastname": "HUGHES"
+        }
+      ],
+      "original": "By ROB HUGHES"
+    },
+    "type_of_material": "News",
+    "_id": "56f1192e7988103bb4cadc7b",
+    "word_count": "903",
+    "slideshow_credits": null
+  },
+  {
+    "web_url": "http://www.nytimes.com/2016/03/23/sports/dementia-care-tailored-to-nfl-retirees.html",
+    "snippet": "Validus plans to build 33 centers over five years, starting with one that will open in September outside Orlando, Fla., where many N.F.L. retirees live.",
+    "lead_paragraph": "Validus plans to build 33 centers over five years, starting with one that will open in September outside Orlando, Fla., where many N.F.L. retirees live.",
+    "abstract": null,
+    "print_page": "",
+    "blog": [],
+    "source": "The New York Times",
+    "multimedia": [
+      {
+        "width": 190,
+        "url": "images/2016/03/23/sports/23MEMORY1/23MEMORY1-thumbWide.jpg",
+        "height": 126,
+        "subtype": "wide",
+        "legacy": {
+          "wide": "images/2016/03/23/sports/23MEMORY1/23MEMORY1-thumbWide.jpg",
+          "wideheight": "126",
+          "widewidth": "190"
+        },
+        "type": "image"
+      },
+      {
+        "width": 600,
+        "url": "images/2016/03/23/sports/23MEMORY1/23MEMORY1-articleLarge.jpg",
+        "height": 400,
+        "subtype": "xlarge",
+        "legacy": {
+          "xlargewidth": "600",
+          "xlarge": "images/2016/03/23/sports/23MEMORY1/23MEMORY1-articleLarge.jpg",
+          "xlargeheight": "400"
+        },
+        "type": "image"
+      },
+      {
+        "width": 75,
+        "url": "images/2016/03/23/sports/23MEMORY1/23MEMORY1-thumbStandard.jpg",
+        "height": 75,
+        "subtype": "thumbnail",
+        "legacy": {
+          "thumbnailheight": "75",
+          "thumbnail": "images/2016/03/23/sports/23MEMORY1/23MEMORY1-thumbStandard.jpg",
+          "thumbnailwidth": "75"
+        },
+        "type": "image"
+      }
+    ],
+    "headline": {
+      "main": "Dementia Care, Tailored to N.F.L. Retirees",
+      "print_headline": "Dementia Care, Tailored to N.F.L. "
+    },
+    "keywords": [
+      {
+        "rank": "1",
+        "is_major": "N",
+        "name": "subject",
+        "value": "Football"
+      },
+      {
+        "rank": "2",
+        "is_major": "N",
+        "name": "subject",
+        "value": "Dementia"
+      },
+      {
+        "rank": "3",
+        "is_major": "N",
+        "name": "subject",
+        "value": "Chronic Traumatic Encephalopathy"
+      },
+      {
+        "rank": "4",
+        "is_major": "N",
+        "name": "subject",
+        "value": "Concussions"
+      },
+      {
+        "rank": "5",
+        "is_major": "N",
+        "name": "subject",
+        "value": "Retirement Communities and Assisted Living"
+      },
+      {
+        "rank": "6",
+        "is_major": "N",
+        "name": "organizations",
+        "value": "National Football League"
+      }
+    ],
+    "pub_date": "2016-03-23T00:00:00Z",
+    "document_type": "article",
+    "news_desk": "Sports",
+    "section_name": "Sports",
+    "subsection_name": null,
+    "byline": {
+      "person": [
+        {
+          "organization": "",
+          "role": "reported",
+          "firstname": "Ken",
+          "rank": 1,
+          "lastname": "BELSON"
+        }
+      ],
+      "original": "By KEN BELSON"
+    },
+    "type_of_material": "News",
+    "_id": "56f1e8c679881066516b2686",
+    "word_count": "1389",
+    "slideshow_credits": null
+  },
+  {
+    "web_url": "http://www.nytimes.com/2016/03/23/sports/a-victory-for-the-visitors-but-a-celebration-for-the-fans.html",
+    "snippet": "James Loney hit a home run for Tampa Bay, Rudy Reyes homered for the hosts&#8217; only run, and the Rays won the first game in 17 years between a major league club and Cuba, as President Obama and Cuban President Raul Castro watched in Havana.",
+    "lead_paragraph": "James Loney hit a home run for Tampa Bay, Rudy Reyes homered for the hosts&#8217; only run, and the Rays won the first game in 17 years between a major league club and Cuba, as President Obama and Cuban President Raul Castro watched in Havana.",
+    "abstract": null,
+    "print_page": null,
+    "blog": [],
+    "source": "The New York Times",
+    "multimedia": [
+      {
+        "width": 190,
+        "url": "images/2016/03/23/sports/23-Y-CUBAGAME-1/23-Y-CUBAGAME-1-thumbWide.jpg",
+        "height": 126,
+        "subtype": "wide",
+        "legacy": {
+          "wide": "images/2016/03/23/sports/23-Y-CUBAGAME-1/23-Y-CUBAGAME-1-thumbWide.jpg",
+          "wideheight": "126",
+          "widewidth": "190"
+        },
+        "type": "image"
+      },
+      {
+        "width": 600,
+        "url": "images/2016/03/23/sports/23-Y-CUBAGAME-1/23-Y-CUBAGAME-1-articleLarge.jpg",
+        "height": 348,
+        "subtype": "xlarge",
+        "legacy": {
+          "xlargewidth": "600",
+          "xlarge": "images/2016/03/23/sports/23-Y-CUBAGAME-1/23-Y-CUBAGAME-1-articleLarge.jpg",
+          "xlargeheight": "348"
+        },
+        "type": "image"
+      },
+      {
+        "width": 75,
+        "url": "images/2016/03/23/sports/23-Y-CUBAGAME-1/23-Y-CUBAGAME-1-thumbStandard.jpg",
+        "height": 75,
+        "subtype": "thumbnail",
+        "legacy": {
+          "thumbnailheight": "75",
+          "thumbnail": "images/2016/03/23/sports/23-Y-CUBAGAME-1/23-Y-CUBAGAME-1-thumbStandard.jpg",
+          "thumbnailwidth": "75"
+        },
+        "type": "image"
+      }
+    ],
+    "headline": {
+      "main": "A Victory for the Visitors, but a Celebration for the Fans",
+      "content_kicker": "Rays 4, Cuba 1 | Exhibition",
+      "kicker": "Rays 4, Cuba 1 | Exhibition",
+      "print_headline": "A Victory for the Visitors, but a Celebration for the Fans"
+    },
+    "keywords": [
+      {
+        "rank": "1",
+        "is_major": "N",
+        "name": "subject",
+        "value": "Baseball"
+      },
+      {
+        "rank": "2",
+        "is_major": "N",
+        "name": "subject",
+        "value": "United States International Relations"
+      },
+      {
+        "rank": "3",
+        "is_major": "N",
+        "name": "organizations",
+        "value": "Tampa Bay Rays"
+      },
+      {
+        "rank": "4",
+        "is_major": "N",
+        "name": "glocations",
+        "value": "Cuba"
+      }
+    ],
+    "pub_date": "2016-03-23T00:00:00Z",
+    "document_type": "article",
+    "news_desk": "Sports",
+    "section_name": "Sports",
+    "subsection_name": null,
+    "byline": {
+      "person": [
+        {
+          "organization": "",
+          "role": "reported",
+          "firstname": "Damien",
+          "rank": 1,
+          "lastname": "CAVE"
+        }
+      ],
+      "original": "By DAMIEN CAVE"
+    },
+    "type_of_material": "News",
+    "_id": "56f1e56679881066516b267d",
+    "word_count": "1069",
+    "slideshow_credits": null
+  },
+  {
+    "web_url": "http://www.nytimes.com/2016/03/23/nyregion/leon-h-charney-investor-cable-tv-host-and-peace-broker-is-dead-at-77.html",
+    "snippet": "Mr. Charney helped bring about the Camp David peace accords in 1978 by arranging secret talks between the Egyptian president, Anwar el-Sadat, and the Israeli prime minister, Menachem Begin.",
+    "lead_paragraph": "Mr. Charney helped bring about the Camp David peace accords in 1978 by arranging secret talks between the Egyptian president, Anwar el-Sadat, and the Israeli prime minister, Menachem Begin.",
+    "abstract": null,
+    "print_page": null,
+    "blog": [],
+    "source": "The New York Times",
+    "multimedia": [
+      {
+        "width": 190,
+        "url": "images/2016/03/23/nyregion/23charney-obit/23charney-obit-thumbWide.jpg",
+        "height": 126,
+        "subtype": "wide",
+        "legacy": {
+          "wide": "images/2016/03/23/nyregion/23charney-obit/23charney-obit-thumbWide.jpg",
+          "wideheight": "126",
+          "widewidth": "190"
+        },
+        "type": "image"
+      },
+      {
+        "width": 600,
+        "url": "images/2016/03/23/nyregion/23charney-obit/23charney-obit-articleLarge.jpg",
+        "height": 400,
+        "subtype": "xlarge",
+        "legacy": {
+          "xlargewidth": "600",
+          "xlarge": "images/2016/03/23/nyregion/23charney-obit/23charney-obit-articleLarge.jpg",
+          "xlargeheight": "400"
+        },
+        "type": "image"
+      },
+      {
+        "width": 75,
+        "url": "images/2016/03/23/nyregion/23charney-obit/23charney-obit-thumbStandard.jpg",
+        "height": 75,
+        "subtype": "thumbnail",
+        "legacy": {
+          "thumbnailheight": "75",
+          "thumbnail": "images/2016/03/23/nyregion/23charney-obit/23charney-obit-thumbStandard.jpg",
+          "thumbnailwidth": "75"
+        },
+        "type": "image"
+      }
+    ],
+    "headline": {
+      "main": "Leon H. Charney, Investor, Cable TV Host and Peace Broker, Is Dead at 77",
+      "print_headline": "Leon H. Charney, 77, Cable TV Host and Peace Broker"
+    },
+    "keywords": [
+      {
+        "rank": "1",
+        "is_major": "N",
+        "name": "subject",
+        "value": "Jews and Judaism"
+      },
+      {
+        "rank": "2",
+        "is_major": "N",
+        "name": "organizations",
+        "value": "New York University School of Medicine"
+      },
+      {
+        "rank": "3",
+        "is_major": "N",
+        "name": "persons",
+        "value": "Carter, Jimmy"
+      },
+      {
+        "rank": "4",
+        "is_major": "N",
+        "name": "glocations",
+        "value": "New York City"
+      },
+      {
+        "rank": "5",
+        "is_major": "N",
+        "name": "glocations",
+        "value": "Israel"
+      },
+      {
+        "rank": "6",
+        "is_major": "N",
+        "name": "subject",
+        "value": "International Relations"
+      }
+    ],
+    "pub_date": "2016-03-23T00:00:00Z",
+    "document_type": "article",
+    "news_desk": "Metro",
+    "section_name": "N.Y. / Region",
+    "subsection_name": null,
+    "byline": {
+      "person": [
+        {
+          "organization": "",
+          "role": "reported",
+          "firstname": "Ralph",
+          "rank": 1,
+          "lastname": "BLUMENTHAL"
+        }
+      ],
+      "original": "By RALPH BLUMENTHAL"
+    },
+    "type_of_material": "Obituary",
+    "_id": "56f1e35e79881066516b2679",
+    "word_count": "894",
+    "slideshow_credits": null
+  },
+  {
+    "web_url": "http://www.nytimes.com/2016/03/23/us/georgia-worker-found-dead-in-hotel-freezer.html",
+    "snippet": "A kitchen worker died after apparently being trapped in a walk-in freezer about 13 hours in an Atlanta hotel, the police said.",
+    "lead_paragraph": "A kitchen worker died after apparently being trapped in a walk-in freezer about 13 hours in an Atlanta hotel, the police said.",
+    "abstract": null,
+    "print_page": "",
+    "blog": [],
+    "source": "The New York Times",
+    "multimedia": [],
+    "headline": {
+      "main": "Georgia: Worker Found Dead in Hotel Freezer",
+      "content_kicker": "National Briefing | South",
+      "print_headline": "Georgia: Worker Found Dead In Freezer "
+    },
+    "keywords": [
+      {
+        "rank": "1",
+        "is_major": "N",
+        "name": "subject",
+        "value": "Hotels and Travel Lodgings"
+      },
+      {
+        "rank": "2",
+        "is_major": "N",
+        "name": "glocations",
+        "value": "Atlanta (Ga)"
+      },
+      {
+        "rank": "3",
+        "is_major": "N",
+        "name": "subject",
+        "value": "Deaths (Fatalities)"
+      }
+    ],
+    "pub_date": "2016-03-23T00:00:00Z",
+    "document_type": "article",
+    "news_desk": "National",
+    "section_name": "U.S.",
+    "subsection_name": null,
+    "byline": {
+      "person": [],
+      "original": "By THE ASSOCIATED PRESS",
+      "organization": "THE ASSOCIATED PRESS"
+    },
+    "type_of_material": "Brief",
+    "_id": "56f1da8579881066516b2666",
+    "word_count": "113",
+    "slideshow_credits": null
+  },
+  {
+    "web_url": "http://www.nytimes.com/2016/03/23/sports/raiders-owner-looks-to-las-vegas-as-possible-new-home.html",
+    "snippet": "Mark Davis has put Las Vegas at the top of his list, even if many N.F.L. owners have sent word that they consider the idea a nonstarter because of the association with gambling.",
+    "lead_paragraph": "Mark Davis has put Las Vegas at the top of his list, even if many N.F.L. owners have sent word that they consider the idea a nonstarter because of the association with gambling.",
+    "abstract": null,
+    "print_page": null,
+    "blog": [],
+    "source": "The New York Times",
+    "multimedia": [
+      {
+        "width": 190,
+        "url": "images/2016/03/23/sports/football/23nflmove-web/23nflmove-web-thumbWide.jpg",
+        "height": 126,
+        "subtype": "wide",
+        "legacy": {
+          "wide": "images/2016/03/23/sports/football/23nflmove-web/23nflmove-web-thumbWide.jpg",
+          "wideheight": "126",
+          "widewidth": "190"
+        },
+        "type": "image"
+      },
+      {
+        "width": 600,
+        "url": "images/2016/03/23/sports/football/23nflmove-web/23nflmove-web-articleLarge.jpg",
+        "height": 405,
+        "subtype": "xlarge",
+        "legacy": {
+          "xlargewidth": "600",
+          "xlarge": "images/2016/03/23/sports/football/23nflmove-web/23nflmove-web-articleLarge.jpg",
+          "xlargeheight": "405"
+        },
+        "type": "image"
+      },
+      {
+        "width": 75,
+        "url": "images/2016/03/23/sports/football/23nflmove-web/23nflmove-web-thumbStandard.jpg",
+        "height": 75,
+        "subtype": "thumbnail",
+        "legacy": {
+          "thumbnailheight": "75",
+          "thumbnail": "images/2016/03/23/sports/football/23nflmove-web/23nflmove-web-thumbStandard.jpg",
+          "thumbnailwidth": "75"
+        },
+        "type": "image"
+      }
+    ],
+    "headline": {
+      "main": "Raiders&#8217; Owner Looks to Las Vegas as Possible New Home",
+      "content_kicker": "N.F.L. Roundup",
+      "kicker": "N.F.L. Roundup",
+      "print_headline": "Raiders&#8217; Owner Looks to Las Vegas, but Other Teams Object "
+    },
+    "keywords": [
+      {
+        "rank": "1",
+        "is_major": "N",
+        "name": "subject",
+        "value": "Football"
+      },
+      {
+        "rank": "2",
+        "is_major": "N",
+        "name": "subject",
+        "value": "Gambling"
+      },
+      {
+        "rank": "3",
+        "is_major": "N",
+        "name": "organizations",
+        "value": "Oakland Raiders"
+      },
+      {
+        "rank": "4",
+        "is_major": "N",
+        "name": "glocations",
+        "value": "Las Vegas (Nev)"
+      }
+    ],
+    "pub_date": "2016-03-23T00:00:00Z",
+    "document_type": "article",
+    "news_desk": "Sports",
+    "section_name": "Sports",
+    "subsection_name": null,
+    "byline": {
+      "person": [
+        {
+          "organization": "",
+          "role": "reported",
+          "firstname": "Ken",
+          "rank": 1,
+          "lastname": "BELSON"
+        }
+      ],
+      "original": "By KEN BELSON"
+    },
+    "type_of_material": "News",
+    "_id": "56f1ccc379881066516b2646",
+    "word_count": "558",
+    "slideshow_credits": null
+  },
+  {
+    "web_url": "http://www.nytimes.com/2016/03/23/arts/dance/flamenco-shows-of-intimacy-passion-and-spectacle.html",
+    "snippet": "For dance fans in New York, the madness this March has been the flood of flamenco, including performances by Ballet Flamenco de Andalucía and Noche Flamenca.",
+    "lead_paragraph": "For dance fans in New York, the madness this March has been the flood of flamenco, including performances by Ballet Flamenco de Andalucía and Noche Flamenca.",
+    "abstract": null,
+    "print_page": "5",
+    "blog": [],
+    "source": "The New York Times",
+    "multimedia": [
+      {
+        "width": 190,
+        "url": "images/2016/03/23/arts/23FLAMENCO1/23FLAMENCO1-thumbWide.jpg",
+        "height": 126,
+        "subtype": "wide",
+        "legacy": {
+          "wide": "images/2016/03/23/arts/23FLAMENCO1/23FLAMENCO1-thumbWide.jpg",
+          "wideheight": "126",
+          "widewidth": "190"
+        },
+        "type": "image"
+      },
+      {
+        "width": 600,
+        "url": "images/2016/03/23/arts/23FLAMENCO1/23FLAMENCO1-articleLarge.jpg",
+        "height": 400,
+        "subtype": "xlarge",
+        "legacy": {
+          "xlargewidth": "600",
+          "xlarge": "images/2016/03/23/arts/23FLAMENCO1/23FLAMENCO1-articleLarge.jpg",
+          "xlargeheight": "400"
+        },
+        "type": "image"
+      },
+      {
+        "width": 75,
+        "url": "images/2016/03/23/arts/23FLAMENCO1/23FLAMENCO1-thumbStandard.jpg",
+        "height": 75,
+        "subtype": "thumbnail",
+        "legacy": {
+          "thumbnailheight": "75",
+          "thumbnail": "images/2016/03/23/arts/23FLAMENCO1/23FLAMENCO1-thumbStandard.jpg",
+          "thumbnailwidth": "75"
+        },
+        "type": "image"
+      }
+    ],
+    "headline": {
+      "main": "Flamenco Shows of Intimacy, Passion and Spectacle",
+      "content_kicker": "Critic’s Notebook",
+      "kicker": "Critic’s Notebook",
+      "print_headline": "  Moments in the Spotlight, With Spectacle and Passion"
+    },
+    "keywords": [
+      {
+        "rank": "1",
+        "is_major": "N",
+        "name": "subject",
+        "value": "Flamenco (Dance)"
+      },
+      {
+        "rank": "2",
+        "is_major": "N",
+        "name": "organizations",
+        "value": "Noche Flamenca"
+      },
+      {
+        "rank": "5",
+        "is_major": "N",
+        "name": "organizations",
+        "value": "Joe's Pub"
+      },
+      {
+        "rank": "6",
+        "is_major": "N",
+        "name": "organizations",
+        "value": "New York City Center Theater"
+      },
+      {
+        "rank": "7",
+        "is_major": "N",
+        "name": "persons",
+        "value": "Barrio, Soledad"
+      }
+    ],
+    "pub_date": "2016-03-23T00:00:00Z",
+    "document_type": "article",
+    "news_desk": "Culture",
+    "section_name": "Arts",
+    "subsection_name": "Dance",
+    "byline": {
+      "person": [
+        {
+          "organization": "",
+          "role": "reported",
+          "firstname": "Brian",
+          "rank": 1,
+          "lastname": "SEIBERT"
+        }
+      ],
+      "original": "By BRIAN SEIBERT"
+    },
+    "type_of_material": "News",
+    "_id": "56f1b10c79881066516b25f7",
+    "word_count": "681",
+    "slideshow_credits": null
+  },
+  {
+    "web_url": "http://www.nytimes.com/2016/03/23/fashion/sophia-webster-wins-british-fashion-award.html",
+    "snippet": "The London-based accessories designer is best known for her eye for color and playfully eccentric statement footwear.",
+    "lead_paragraph": "The London-based accessories designer is best known for her eye for color and playfully eccentric statement footwear.",
+    "abstract": null,
+    "print_page": null,
+    "blog": [],
+    "source": "The New York Times",
+    "multimedia": [
+      {
+        "width": 190,
+        "url": "images/2016/03/22/fashion/23BFC1-WEB/22BFCVogue-WEB-thumbWide.jpg",
+        "height": 126,
+        "subtype": "wide",
+        "legacy": {
+          "wide": "images/2016/03/22/fashion/23BFC1-WEB/22BFCVogue-WEB-thumbWide.jpg",
+          "wideheight": "126",
+          "widewidth": "190"
+        },
+        "type": "image"
+      },
+      {
+        "width": 600,
+        "url": "images/2016/03/22/fashion/23BFC1-WEB/22BFCVogue-WEB-articleLarge.jpg",
+        "height": 900,
+        "subtype": "xlarge",
+        "legacy": {
+          "xlargewidth": "600",
+          "xlarge": "images/2016/03/22/fashion/23BFC1-WEB/22BFCVogue-WEB-articleLarge.jpg",
+          "xlargeheight": "900"
+        },
+        "type": "image"
+      },
+      {
+        "width": 75,
+        "url": "images/2016/03/22/fashion/23BFC1-WEB/22BFCVogue-WEB-thumbStandard.jpg",
+        "height": 75,
+        "subtype": "thumbnail",
+        "legacy": {
+          "thumbnailheight": "75",
+          "thumbnail": "images/2016/03/22/fashion/23BFC1-WEB/22BFCVogue-WEB-thumbStandard.jpg",
+          "thumbnailwidth": "75"
+        },
+        "type": "image"
+      }
+    ],
+    "headline": {
+      "main": "Sophia Webster Wins British Fashion Award",
+      "content_kicker": "On the Runway",
+      "kicker": "On the Runway"
+    },
+    "keywords": [
+      {
+        "rank": "2",
+        "is_major": "N",
+        "name": "organizations",
+        "value": "British Fashion Council"
+      },
+      {
+        "rank": "3",
+        "is_major": "N",
+        "name": "subject",
+        "value": "Fashion and Apparel"
+      },
+      {
+        "rank": "4",
+        "is_major": "N",
+        "name": "subject",
+        "value": "Awards, Decorations and Honors"
+      }
+    ],
+    "pub_date": "2016-03-23T00:00:00Z",
+    "document_type": "article",
+    "news_desk": "Styles",
+    "section_name": "Fashion & Style",
+    "subsection_name": null,
+    "byline": {
+      "person": [
+        {
+          "organization": "",
+          "role": "reported",
+          "firstname": "Elizabeth",
+          "rank": 1,
+          "lastname": "PATON"
+        }
+      ],
+      "original": "By ELIZABETH PATON"
+    },
+    "type_of_material": "News",
+    "_id": "56f1afcb79881066516b25f0",
+    "word_count": "495",
+    "slideshow_credits": null
+  },
+  {
+    "web_url": "http://www.nytimes.com/2016/03/23/business/chip-card-payment-system-delays-frustrate-retailers.html",
+    "snippet": "Many complications were widely predicted, but a lag in certifying payment terminals has added an unexpected wrinkle — and lots of finger-pointing.",
+    "lead_paragraph": "Many complications were widely predicted, but a lag in certifying payment terminals has added an unexpected wrinkle — and lots of finger-pointing.",
+    "abstract": null,
+    "print_page": "1",
+    "blog": [],
+    "source": "The New York Times",
+    "multimedia": [
+      {
+        "width": 190,
+        "url": "images/2016/03/19/business/21CARDS/21CARDS-thumbWide.jpg",
+        "height": 126,
+        "subtype": "wide",
+        "legacy": {
+          "wide": "images/2016/03/19/business/21CARDS/21CARDS-thumbWide.jpg",
+          "wideheight": "126",
+          "widewidth": "190"
+        },
+        "type": "image"
+      },
+      {
+        "width": 600,
+        "url": "images/2016/03/19/business/21CARDS/21CARDS-articleLarge.jpg",
+        "height": 400,
+        "subtype": "xlarge",
+        "legacy": {
+          "xlargewidth": "600",
+          "xlarge": "images/2016/03/19/business/21CARDS/21CARDS-articleLarge.jpg",
+          "xlargeheight": "400"
+        },
+        "type": "image"
+      },
+      {
+        "width": 75,
+        "url": "images/2016/03/19/business/21CARDS/21CARDS-thumbStandard.jpg",
+        "height": 75,
+        "subtype": "thumbnail",
+        "legacy": {
+          "thumbnailheight": "75",
+          "thumbnail": "images/2016/03/19/business/21CARDS/21CARDS-thumbStandard.jpg",
+          "thumbnailwidth": "75"
+        },
+        "type": "image"
+      }
+    ],
+    "headline": {
+      "main": "Chip-Card Payment System Delays Frustrate Retailers",
+      "print_headline": "A Bottleneck For Chip Cards"
+    },
+    "keywords": [
+      {
+        "rank": "1",
+        "is_major": "N",
+        "name": "subject",
+        "value": "Credit Cards"
+      },
+      {
+        "rank": "2",
+        "is_major": "N",
+        "name": "organizations",
+        "value": "MasterCard Inc"
+      },
+      {
+        "rank": "3",
+        "is_major": "N",
+        "name": "organizations",
+        "value": "Visa Inc"
+      },
+      {
+        "rank": "4",
+        "is_major": "N",
+        "name": "organizations",
+        "value": "American Express Company"
+      },
+      {
+        "rank": "5",
+        "is_major": "N",
+        "name": "organizations",
+        "value": "Vantiv LLC"
+      },
+      {
+        "rank": "6",
+        "is_major": "N",
+        "name": "subject",
+        "value": "Shopping and Retail"
+      }
+    ],
+    "pub_date": "2016-03-23T00:00:00Z",
+    "document_type": "article",
+    "news_desk": "Business",
+    "section_name": "Business Day",
+    "subsection_name": null,
+    "byline": {
+      "person": [
+        {
+          "organization": "",
+          "role": "reported",
+          "firstname": "Rachel",
+          "rank": 1,
+          "lastname": "ABRAMS"
+        }
+      ],
+      "original": "By RACHEL ABRAMS"
+    },
+    "type_of_material": "News",
+    "_id": "56f1a2b379881066516b25c6",
+    "word_count": "1178",
+    "slideshow_credits": null
+  }
+]

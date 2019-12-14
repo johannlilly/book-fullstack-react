@@ -1,0 +1,354 @@
+schema {
+  query: RootQuery
+  mutation: RootMutation
+}
+
+input addAuthorInput {
+  name: String
+  avatarUrl: String
+  bio: String
+  createdAt: Date
+  books: [ID]
+  clientMutationId: String
+}
+
+type addAuthorPayload {
+  viewer: Viewer
+  changedAuthorEdge: changedAuthorEdge
+  clientMutationId: String
+}
+
+input addBookInput {
+  name: String
+  slug: String
+  tagline: String
+  description: String
+  coverUrl: String
+  pages: Float
+  createdAt: Date
+  authors: [ID]
+  clientMutationId: String
+}
+
+type addBookPayload {
+  viewer: Viewer
+  changedBookEdge: changedBookEdge
+  clientMutationId: String
+}
+
+type Author implements Node {
+  name: String
+  avatarUrl: String
+  bio: String
+  createdAt: Date
+  books(after: String, first: Int, before: String, last: Int): AuthorBooksConnection
+  _id: ID
+
+  # The ID of an object
+  id: ID!
+}
+
+# A connection to a list of items.
+type AuthorBooksConnection {
+  # Information to aid in pagination.
+  pageInfo: PageInfo!
+
+  # A list of edges.
+  edges: [AuthorBooksEdge]
+  count: Float
+}
+
+# An edge in a connection.
+type AuthorBooksEdge {
+  # The item at the end of the edge
+  node: Book
+
+  # A cursor for use in pagination
+  cursor: String!
+}
+
+# A connection to a list of items.
+type AuthorConnection {
+  # Information to aid in pagination.
+  pageInfo: PageInfo!
+
+  # A list of edges.
+  edges: [AuthorEdge]
+  count: Float
+}
+
+# An edge in a connection.
+type AuthorEdge {
+  # The item at the end of the edge
+  node: Author
+
+  # A cursor for use in pagination
+  cursor: String!
+}
+
+type Book implements Node {
+  name: String
+  slug: String
+  tagline: String
+  description: String
+  coverUrl: String
+  pages: Float
+  createdAt: Date
+  authors(after: String, first: Int, before: String, last: Int): BookAuthorsConnection
+  _id: ID
+
+  # The ID of an object
+  id: ID!
+}
+
+# A connection to a list of items.
+type BookAuthorsConnection {
+  # Information to aid in pagination.
+  pageInfo: PageInfo!
+
+  # A list of edges.
+  edges: [BookAuthorsEdge]
+  count: Float
+}
+
+# An edge in a connection.
+type BookAuthorsEdge {
+  # The item at the end of the edge
+  node: Author
+
+  # A cursor for use in pagination
+  cursor: String!
+}
+
+# A connection to a list of items.
+type BookConnection {
+  # Information to aid in pagination.
+  pageInfo: PageInfo!
+
+  # A list of edges.
+  edges: [BookEdge]
+  count: Float
+}
+
+# An edge in a connection.
+type BookEdge {
+  # The item at the end of the edge
+  node: Book
+
+  # A cursor for use in pagination
+  cursor: String!
+}
+
+# An edge in a connection.
+type changedAuthorEdge {
+  # The item at the end of the edge
+  node: changedAuthorNode
+
+  # A cursor for use in pagination
+  cursor: String!
+}
+
+type changedAuthorNode {
+  name: String
+  avatarUrl: String
+  bio: String
+  createdAt: Date
+  books(after: String, first: Int, before: String, last: Int): AuthorBooksConnection
+  _id: ID
+
+  # The ID of an object
+  id: ID!
+}
+
+# An edge in a connection.
+type changedBookEdge {
+  # The item at the end of the edge
+  node: changedBookNode
+
+  # A cursor for use in pagination
+  cursor: String!
+}
+
+type changedBookNode {
+  name: String
+  slug: String
+  tagline: String
+  description: String
+  coverUrl: String
+  pages: Float
+  createdAt: Date
+  authors(after: String, first: Int, before: String, last: Int): BookAuthorsConnection
+  _id: ID
+
+  # The ID of an object
+  id: ID!
+}
+
+scalar Date
+
+input deleteAuthorInput {
+  id: ID!
+  clientMutationId: String
+}
+
+type deleteAuthorPayload {
+  viewer: Viewer
+  ok: Boolean
+  id: ID!
+  clientMutationId: String
+}
+
+input deleteBookInput {
+  id: ID!
+  clientMutationId: String
+}
+
+type deleteBookPayload {
+  viewer: Viewer
+  ok: Boolean
+  id: ID!
+  clientMutationId: String
+}
+
+# An object with an ID
+interface Node {
+  # The id of the object.
+  id: ID!
+}
+
+enum orderByAuthor {
+  NAME_ASC
+  NAME_DESC
+  AVATARURL_ASC
+  AVATARURL_DESC
+  BIO_ASC
+  BIO_DESC
+  CREATEDAT_ASC
+  CREATEDAT_DESC
+  _ID_ASC
+  _ID_DESC
+}
+
+enum orderByBook {
+  NAME_ASC
+  NAME_DESC
+  TAGLINE_ASC
+  TAGLINE_DESC
+  DESCRIPTION_ASC
+  DESCRIPTION_DESC
+  COVERURL_ASC
+  COVERURL_DESC
+  CREATEDAT_ASC
+  CREATEDAT_DESC
+  _ID_ASC
+  _ID_DESC
+}
+
+# Information about pagination in a connection.
+type PageInfo {
+  # When paginating forwards, are there more items?
+  hasNextPage: Boolean!
+
+  # When paginating backwards, are there more items?
+  hasPreviousPage: Boolean!
+
+  # When paginating backwards, the cursor to continue.
+  startCursor: String
+
+  # When paginating forwards, the cursor to continue.
+  endCursor: String
+}
+
+type RootMutation {
+  addAuthor(input: addAuthorInput!): addAuthorPayload
+  updateAuthor(input: updateAuthorInput!): updateAuthorPayload
+  deleteAuthor(input: deleteAuthorInput!): deleteAuthorPayload
+  addBook(input: addBookInput!): addBookPayload
+  updateBook(input: updateBookInput!): updateBookPayload
+  deleteBook(input: deleteBookInput!): deleteBookPayload
+}
+
+type RootQuery {
+  author(id: ID!): Author
+  authors(
+    # The ID of a Author
+    id: [ID]
+
+    # The ID of a Author
+    ids: [ID]
+    orderBy: orderByAuthor
+    name: String
+    avatarUrl: String
+    bio: String
+    createdAt: Date
+    _id: ID
+  ): [Author]
+  book(id: ID, slug: String): Book
+  books(
+    # The ID of a Book
+    id: [ID]
+
+    # The ID of a Book
+    ids: [ID]
+    orderBy: orderByBook
+    name: String
+    slug: String
+    tagline: String
+    description: String
+    coverUrl: String
+    pages: Float
+    createdAt: Date
+    _id: ID
+  ): [Book]
+  viewer: Viewer
+
+  # Fetches an object given its ID
+  node(
+    # The ID of an object
+    id: ID!
+  ): Node
+}
+
+input updateAuthorInput {
+  name: String
+  avatarUrl: String
+  bio: String
+  createdAt: Date
+  books: [ID]
+  books_add: [ID]
+  id: ID!
+  clientMutationId: String
+}
+
+type updateAuthorPayload {
+  changedAuthor: Author
+  clientMutationId: String
+}
+
+input updateBookInput {
+  name: String
+  slug: String
+  tagline: String
+  description: String
+  coverUrl: String
+  pages: Float
+  createdAt: Date
+  authors: [ID]
+  authors_add: [ID]
+  id: ID!
+  clientMutationId: String
+}
+
+type updateBookPayload {
+  changedBook: Book
+  clientMutationId: String
+}
+
+type Viewer implements Node {
+  # The ID of an object
+  id: ID!
+  authors(after: String, first: Int, before: String, last: Int, orderBy: orderByAuthor, name: String, avatarUrl: String, bio: String, createdAt: Date, _id: ID): AuthorConnection
+  author(id: ID!): Author
+  books(after: String, first: Int, before: String, last: Int, orderBy: orderByBook, name: String, slug: String, tagline: String, description: String, coverUrl: String, pages: Float, createdAt: Date, _id: ID): BookConnection
+  book(id: ID, slug: String): Book
+}

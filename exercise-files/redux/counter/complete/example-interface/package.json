@@ -1,0 +1,12 @@
+{
+  "name": "counter_example",
+  "version": "1.0.0",
+  "author": "Fullstack React",
+  "scripts": {
+    "server": "echo 'Find the server at http://localhost:3000\n' && ./node_modules/http-server/bin/http-server . -p 3000"
+  },
+  "private": true,
+  "dependencies": {
+    "http-server": "0.8.5"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "voting_app",
+  "version": "1.1.0",
+  "author": "Fullstack.io",
+  "scripts": {
+    "go": "open http://localhost:3000; npm run server",
+    "e2e": "nightwatch --config nightwatch.js",
+    "run-e2e": "concurrently -s first -k \"npm start\" \"sleep 15; npm run e2e\"",
+    "test": "./node_modules/.bin/concurrently -k 'npm run server' 'npm run e2e'",
+    "start": "npm run server",
+    "server": "live-server public --host=localhost --port=3000 --middleware=./disable-browser-cache.js"
+  },
+  "private": true,
+  "devDependencies": {
+    "concurrently": "2.2.0",
+    "live-server": "https://github.com/acco/live-server/tarball/master"
+  }
+}

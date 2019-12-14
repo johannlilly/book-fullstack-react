@@ -1,0 +1,51 @@
+{
+  "name": "cookbook",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Ari Lerner <ari@fullstack.io>",
+  "license": "ISC",
+  "dependencies": {
+    "create-react-class": "15.6.2",
+    "faker": "4.1.0",
+    "font-awesome": "4.7.0",
+    "jquery": "3.2.1",
+    "jquery-ui": "1.12.1",
+    "moment": "2.19.1",
+    "react": "16.7.0",
+    "react-docgen": "2.19.0",
+    "react-dom": "16.7.0"
+  },
+  "scripts": {
+    "start": "styleguidist server",
+    "build": "styleguidist build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build",
+    "e2e": "nightwatch -c nightwatch.conf.js",
+    "run-e2e": "concurrently -s first -k \"npm start\" \"sleep 15; npm run e2e\""
+  },
+  "devDependencies": {
+    "amd-define-factory-patcher-loader": "1.0.0",
+    "babel": "6.23.0",
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-preset-env": "1.6.1",
+    "css-loader": "0.28.7",
+    "dotenv": "4.0.0",
+    "file-loader": "1.1.5",
+    "json-loader": "0.5.7",
+    "loaders": "1.1.3",
+    "postcss-loader": "2.0.8",
+    "postcss-nested": "2.1.2",
+    "precss": "2.0.0",
+    "react-scripts": "1.0.14",
+    "react-styleguidist": "6.0.31",
+    "style-loader": "0.19.0",
+    "url-loader": "0.6.2",
+    "webpack": "3.8.1",
+    "concurrently": "3.4.0"
+  }
+}

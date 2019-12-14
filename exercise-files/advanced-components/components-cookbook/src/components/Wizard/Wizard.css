@@ -1,0 +1,106 @@
+/* based on http://codepen.io/oknoblich/pen/EAzBc */
+$dark: #151617;
+$light: #cccccc;
+$white: #FFFFFF;
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.breadcrumbs {
+  display: inline-block;
+  /* box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.35); */
+  overflow: hidden;
+  border-radius: 5px;
+  counter-reset: flag;
+}
+
+.breadcrumbs a {
+  font-size: 12px;
+  line-height: 36px;
+  color: $dark;
+  padding: 0 15px 0 60px;
+  position: relative;
+  text-decoration: none;
+  outline: none;
+  display: block;
+  float: left;
+
+  &.active, &:hover, &.active:after,
+  &:hover:after {
+    background: $light;
+  }
+
+}
+
+.breadcrumbs a:first-child {
+  padding-left: 50px;
+  border-radius: 5px 0 0 5px;
+}
+
+.breadcrumbs a:first-child:before {
+  left: 14px;
+}
+
+.breadcrumbs a:last-child {
+  border-radius: 0 5px 5px 0;
+  padding-right: 25px;
+}
+
+.breadcrumbs a:after {
+  right: -18px;
+  width: 36px;
+  height: 36px;
+  transform: scale(0.707) rotate(45deg);
+  z-index: 1;
+  border-radius: 0 5px 0 50px;
+  content: '';
+  position: absolute;
+  top: 0;
+}
+
+.breadcrumbs a:last-child:after {
+  content: none;
+}
+
+.breadcrumbs a:before {
+  content: counter(flag);
+  counter-increment: flag;
+  position: absolute;
+  top: 0;
+  left: 30px;
+  background: #FFFFFF;
+  color: $dark;
+  font-weight: bold;
+  border-radius: 100%;
+  border: 1px solid $light;
+  padding-left: 6px;
+  width: 14px;
+  height: 20px;
+  line-height: 20px;
+  margin: 8px 0;
+}
+
+@media (max-width: 720px) {
+  .breadcrumbss a {
+    padding: 15px;
+  }
+  .breadcrumbss a:before,
+  .breadcrumbss a:after {
+    border-top-width: 26px;
+    border-bottom-width: 26px;
+    border-left-width: 13px;
+  }
+}
+
+@media (max-width: 620px) {
+  .breadcrumbss a {
+  }
+  .breadcrumbss a:before,
+  .breadcrumbss a:after {
+  }
+}
+
+@media (max-width: 520px) {
+}

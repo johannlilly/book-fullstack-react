@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ComponentMenu renders a list of components 1`] = `
+Array [
+  "<div class=\\"item\\" id=\\"App-1\\">App-1</div>",
+  "<div class=\\"item\\" id=\\"App-2\\">App-2</div>",
+]
+`;
+
+exports[`SelectableComponents renders \`ComponentMenu\` with the right props 1`] = `
+Object {
+  "names": Array [
+    "App-1",
+    "App-2",
+  ],
+  "onComponentSelect": [Function],
+}
+`;
+
+exports[`SelectableComponents selecting another component should update the state 1`] = `
+Object {
+  "componentIdx": 1,
+}
+`;
+
+exports[`SelectableComponents selecting via UI renders \`ComponentMenu\` with the right props 1`] = `
+Object {
+  "onComponentSelect": [Function],
+  "slugs": Array [
+    "App-1",
+    "App-2",
+  ],
+}
+`;
+
+exports[`SelectableComponents selecting via UI selecting another component should update the state 1`] = `
+Object {
+  "activeSlug": "App-2",
+}
+`;
+
+exports[`SelectableComponents selecting via query params should select component on mount based on query params 1`] = `
+Object {
+  "activeSlug": "App-1",
+}
+`;
+
+exports[`SelectableComponents selecting via query params should select component on mount based on query params 2`] = `
+Object {
+  "activeSlug": "App-2",
+}
+`;

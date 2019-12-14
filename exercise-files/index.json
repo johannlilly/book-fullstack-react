@@ -1,0 +1,79 @@
+{
+  "name": "Fullstack React Code Directory",
+  "description": "This file is an index of the sample code",
+  "chapters": [
+    {
+      "name": "Your first React App",
+      "examples": [
+        "voting_app"
+      ]
+    },
+    {
+      "name": "Components",
+      "examples": [
+        "time_tracking_app"
+      ]
+    },
+    {
+      "name": "JSX and the Virtual DOM",
+      "examples": [
+        "jsx/basic"
+      ]
+    },
+    {
+      "name": "Component Configuration",
+      "examples": [
+        "advanced-components/components-cookbook"
+      ]
+    },
+    {
+      "name": "Forms",
+      "examples": [
+        "forms"
+      ]
+    },
+    {
+      "name": "Redux",
+      "examples": [
+        "redux/chat_intermediate",
+        "redux/chat_simple",
+        "redux/counter"
+      ]
+    },
+    {
+      "name": "GraphQL Server",
+      "examples": [
+        "graphql-server/server"
+      ]
+    },
+    {
+      "name": "Testing",
+      "examples": [
+        "testing/basics",
+        "testing/react-basics"
+      ]
+    },
+    {
+      "name": "Webpack",
+      "examples": [
+        "webpack/es6-modules",
+        "webpack/food-lookup/client",
+        "webpack/heart-webpack-complete"
+      ]
+    },
+    {
+      "name": "Food Lookup Complete",
+      "examples": [
+        "food-lookup-complete/client"
+      ]
+    },
+    {
+      "name": "React Native",
+      "examples": [
+        "react-native/native-examples/Playground",
+        "react-native/app",
+        "react-native/web-example"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "fsr-helpers",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "dependencies": {
+    "react": "16.1.1",
+    "react-dom": "16.1.1"
+  },
+  "scripts": {
+    "test": "jest src --watch",
+    "compile": "./node_modules/.bin/babel -d dist/ src/"
+  },
+  "devDependencies": {
+    "babel-cli": "6.24.0",
+    "babel-core": "6.24.0",
+    "babel-jest": "19.0.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.24.0",
+    "babel-preset-es2016": "6.22.0",
+    "babel-preset-react": "6.23.0",
+    "babel-preset-stage-2": "6.22.0",
+    "enzyme": "2.8.2",
+    "jest": "19.0.2",
+    "react-test-renderer": "16.1.1"
+  }
+}

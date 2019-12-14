@@ -1,0 +1,13 @@
+$text: #FDEECD;
+$bg: #493831;
+$onText: #000000;
+$onBg: #EAB05E;
+
+.active {
+  color: $onText;
+  background-color: $onBg;
+}
+
+.inlineBlock {
+  display: inline-block;
+}

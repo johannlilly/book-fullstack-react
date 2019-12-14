@@ -1,0 +1,7 @@
+.Album {
+  margin-left: 20px;
+}
+
+.Album.spacer.row {
+  height: 20px;
+}

@@ -1,0 +1,38 @@
+// Use this file as a starting point for your project's .eslintrc.
+// Copy this file, and add rule overrides as needed.
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "root": true,
+  "rules": {
+    "max-len": ["error", { "code": 80, "ignoreTrailingComments": true }],
+    "quote-props": [1, "consistent-as-needed"],
+    "no-cond-assign": [2, "except-parens"],
+    "no-else-return": 0,
+    "react/react-in-jsx-scope": 0,
+    "react/prefer-es6-class": 0,
+    "react/jsx-no-bind": 0,
+    "react/prop-types": 0,
+    "react/no-multi-comp": 0,
+    "jsx-quotes": [1, "prefer-single"],
+    "prefer-const": 1,
+    "react/no-string-refs": 0,
+    "strict": 0,
+    "no-use-before-define": [2, "nofunc"],
+    "object-shorthand": 0,
+    "func-names": 0,
+    "import/no-unresolved": 0,
+    "react/require-extension": 0,
+    "space-before-function-paren": [2, {"anonymous": "always", "named": "never"}],
+    "array-bracket-spacing": [2, "always"],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "no-console": 0,
+    "react/forbid-prop-types": 0,
+    "class-methods-use-this": 0
+  },
+  "globals": {
+    "document": true,
+    "localStorage": true,
+    "window": true
+  }
+}

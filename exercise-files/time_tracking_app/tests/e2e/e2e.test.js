@@ -1,0 +1,77 @@
+module.exports = {
+  'step one' : function (browser) {
+    browser
+      .pause(3000)
+      .url('http://localhost:3000/')
+      .waitForElementVisible('body', 3000)
+      .waitForElementPresent("#timers", 3000)
+      .useXpath()
+      .waitForElementPresent("//*[contains(text(), \'Mow the lawn\')]", 1000)
+      .assert.elementPresent("//*[contains(text(), \'Mow the lawn\')]")
+
+      .useCss()
+      .waitForElementPresent(".ui.centered.card:nth-child(2) .header", 1000)
+      .click(".ui.centered.card:nth-child(2) .header")
+      .waitForElementPresent(".ui.centered.card:nth-child(2) .header", 1000)
+      .click(".ui.centered.card:nth-child(2) .header")
+
+      .useXpath()
+      .waitForElementPresent("//*[contains(text(), \'Clear paper jam\')]", 1000)
+      .assert.elementPresent("//*[contains(text(), \'Clear paper jam\')]")
+
+      .useCss()
+      .waitForElementPresent(".ui.centered.card:nth-child(3) .header", 1000)
+      .click(".ui.centered.card:nth-child(3) .header")
+      .waitForElementPresent(".ui.centered.card:nth-child(3) .header", 1000)
+      .click(".ui.centered.card:nth-child(3) .header")
+      .waitForElementPresent(".ui.centered.card:nth-child(3) .header", 1000)
+      .click(".ui.centered.card:nth-child(3) .header")
+
+      .useXpath()
+      .waitForElementPresent("//*[contains(text(), \'Ponder origins of universe\')]", 1000)
+      .assert.elementPresent("//*[contains(text(), \'Ponder origins of universe\')]")
+
+      .useCss()
+      .waitForElementPresent(".ui.centered.card:nth-child(1)", 1000)
+      .click(".ui.centered.card:nth-child(1)")
+      .waitForElementPresent(".ui.centered.card:nth-child(1) .meta", 1000)
+      .click(".ui.centered.card:nth-child(1) .meta")
+      .waitForElementPresent(".ui.centered.card:nth-child(1) h2", 1000)
+      .click(".ui.centered.card:nth-child(1) h2")
+      .waitForElementPresent(".ui.centered.card:nth-child(1) h2", 1000)
+      .click(".ui.centered.card:nth-child(1) h2")
+      .waitForElementPresent(".ui.centered.card:nth-child(1) h2", 1000)
+      .click(".ui.centered.card:nth-child(1) h2")
+      .waitForElementPresent(".ui.centered.card:nth-child(1) h2", 1000)
+      .click(".ui.centered.card:nth-child(1) h2")
+      .waitForElementPresent(".ui.centered.card:nth-child(1) h2", 1000)
+      .click(".ui.centered.card:nth-child(1) h2")
+      .waitForElementPresent("#timers", 1000)
+      .pause(1000)
+      .waitForElementPresent(".ui.centered.card:nth-child(3) .ui.bottom.attached.red.basic.button", 1000)
+
+      // add a timer
+      .waitForElementPresent(".plus.icon", 1000)
+      .click(".plus.icon")
+      .waitForElementPresent(".field:nth-child(1) input", 1000)
+      .click(".field:nth-child(1) input")
+      .waitForElementPresent(".field:nth-child(1) input", 1000)
+      .setValue(".field:nth-child(1) input", "Hello")
+      .waitForElementPresent(".field:nth-child(2) input", 1000)
+      .setValue(".field:nth-child(2) input", "Life Chores")
+      .waitForElementPresent(".ui.basic.blue.button", 1000)
+      .click(".ui.basic.blue.button")
+      .waitForElementPresent(".ui.bottom.attached.red.basic.button", 1000)
+      .click(".ui.bottom.attached.red.basic.button")
+      .waitForElementPresent(".ui.centered.card:nth-child(4) .header", 1000)
+      .click(".ui.centered.card:nth-child(4) .header")
+      .waitForElementPresent(".ui.centered.card:nth-child(4) .header", 1000)
+      .click(".ui.centered.card:nth-child(4) .header")
+
+      .useXpath()
+      .waitForElementPresent("//*[contains(text(), \'Hello\')]", 1000)
+      .assert.elementPresent("//*[contains(text(), \'Hello\')]")
+      .pause(1000)
+      .end();
+  }
+};

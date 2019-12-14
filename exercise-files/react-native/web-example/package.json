@@ -1,0 +1,20 @@
+{
+  "name": "examples",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "1.0.14",
+    "concurrently": "3.4.0"
+  },
+  "dependencies": {
+    "prop-types": "15.6.0",
+    "react": "16.7.0",
+    "react-dom": "16.7.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

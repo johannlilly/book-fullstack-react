@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "no-unused-vars": 0,
+    "no-shadow": 0,
+    "react/jsx-first-prop-new-line": 0,
+    "import/no-extraneous-dependencies": 0
+  }
+}

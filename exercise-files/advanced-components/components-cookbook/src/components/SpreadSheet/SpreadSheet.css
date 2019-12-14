@@ -1,0 +1,29 @@
+$white: #FFFFFF;
+$yellow: yellow;
+$green: green;
+
+.container {
+  height: 250px;
+  overflow: auto;
+  font-size: 14px;
+}
+.spreadsheet {
+  tbody {
+    td {
+      border: 1px solid #eeeeee;
+    }
+    input {
+      border: 0px solid #cccccc;
+      padding: 2px;
+      font-size: 1.1em;
+    }
+  }
+}
+
+.row {
+  background: $white;
+}
+
+.focusedRow {
+  background: $yellow;
+}

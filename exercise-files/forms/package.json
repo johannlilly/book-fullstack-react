@@ -1,0 +1,27 @@
+{
+  "name": "forms",
+  "version": "1.0.0",
+  "private": true,
+  "author": "David Guttman <david@guttman.io> (http://davidguttman.com/)",
+  "devDependencies": {
+    "react-scripts": "0.9.5",
+    "concurrently": "3.4.0"
+  },
+  "dependencies": {
+    "prop-types": "15.6.0",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
+    "react-redux": "4.4.8",
+    "redux": "3.5.2",
+    "redux-thunk": "2.1.0",
+    "validator": "5.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "npm run run-e2e",
+    "eject": "react-scripts eject",
+    "e2e": "nightwatch -c nightwatch.conf.js",
+    "run-e2e": "concurrently -s first -k \"npm start\" \"sleep 15; npm run e2e\""
+  }
+}

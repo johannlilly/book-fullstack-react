@@ -1,0 +1,40 @@
+{
+  "name": "bookstore-server",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "babel-node start-server.js",
+    "client": "babel-node start-client.js",
+    "generateSchema": "babel-node tools/update-schema.js"
+  },
+  "dependencies": {
+    "@risingstack/graffiti": "3.3.0",
+    "@risingstack/graffiti-mongoose": "6.0.0",
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2016": "6.24.1",
+    "babel-preset-es2017": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "bluebird": "3.5.1",
+    "body-parser": "1.18.2",
+    "cors": "2.8.4",
+    "express": "4.16.2",
+    "graphql": "0.11.7",
+
+    "lodash": "4.17.4",
+    "mockgoose": "7.3.3",
+    "mongoose": "4.12.1",
+    "morgan": "1.9.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "concurrently": "3.5.0",
+    "nodemon": "1.12.1"
+  },
+  "babel": {
+    "presets": ["env", "stage-0"],
+    "plugins": ["transform-runtime"]
+  }
+}

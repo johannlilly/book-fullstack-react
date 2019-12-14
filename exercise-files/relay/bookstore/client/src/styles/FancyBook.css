@@ -1,0 +1,153 @@
+/**
+ * Credits for the 3D book style design go to [Mary Lou](https://twitter.com/crnacura). 
+ * Checkout the Codrops Article [3D Book Showcase](https://tympanus.net/Development/3DBookShowcase/)
+ **/
+.book-container {
+  position: relative;
+  perspective: 1800px;
+  padding: 1em;
+}
+
+.bk-book {
+	/* position: absolute; */
+	width: 100%;
+	/* height: 400px; */
+	height: 34vw; 
+  max-height: 50vw;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition: -webkit-transform .5s;
+	transition: transform .5s;
+}
+
+.bk-book.bk-bookdefault:hover {
+	-webkit-transform: rotate3d(0,1,0,35deg);
+	transform: rotate3d(0,1,0,35deg);
+}
+
+.bk-book > div,
+.bk-front > div {
+	display: block;
+	position: absolute;
+}
+
+.bk-front {
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transform-origin: 0% 50%;
+	transform-origin: 0% 50%;
+	-webkit-transition: -webkit-transform .5s;
+	transition: transform .5s;
+	-webkit-transform: translate3d(0,0,20px);
+	transform: translate3d(0,0,20px);
+	z-index: 10;
+}
+
+.bk-front > div {
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.bk-front,
+.bk-back,
+.bk-front > div {
+	/*
+   width: 300px; 
+	 height: 100%;
+   */
+	width: 100%;
+	height: 34vw;
+  max-height: 50vw;
+}
+
+.bk-left {
+	width: 40px;
+	left: -20px;
+}
+
+.bk-left {
+	/* height: 400px; */
+  height: 34vw;
+  max-height: 50vw;
+	-webkit-transform: rotate3d(0,1,0,-90deg);
+	transform: rotate3d(0,1,0,-90deg);
+}
+
+.bk-front:after {
+	content: '';
+	position: absolute;
+	top: 1px;
+	bottom: 1px;
+	left: -1px;
+	width: 1px;
+}
+
+.bk-front > div {
+	border-radius: 0 3px 3px 0;
+	box-shadow: 
+		inset 4px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.bk-back {
+	-webkit-transform: rotate3d(0,1,0,-180deg) translate3d(0,0,20px);
+	transform: rotate3d(0,1,0,-180deg) translate3d(0,0,20px);
+	box-shadow: 10px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 3px 0 0 3px;
+}
+
+/* this is for the fake 'spine' */
+.bk-cover:after,
+.bk-back:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 10px;
+	bottom: 0;
+	width: 3px;
+	background: rgba(0,0,0,0.06);
+	box-shadow: 1px 0 3px rgba(255, 255, 255, 0.1);
+}
+
+.bk-back:after {
+	left: auto;
+	right: 10px;
+}
+
+.bk-cover > img {
+  max-width: 100%;
+  width: 100%;
+  height: 34vw;
+  max-height: 50vw;
+}
+
+.bk-left {
+  overflow: hidden;
+}
+
+.bk-left > img {
+  height: 100%;
+}
+
+.bk-front > div,
+.bk-back,
+.bk-left,
+.bk-front:after {
+	background-color: #c1c1c1;
+}
+
+.bk-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+}
+
+
+
+
+
+
+

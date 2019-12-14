@@ -1,0 +1,91 @@
+exports[`store1 dispatching actions 1`] = `
+Object {
+  "messages": Array [
+    "How does it look, Neil?",
+  ],
+}
+`;
+
+exports[`store1 dispatching actions 2`] = `
+Object {
+  "messages": Array [
+    "How does it look, Neil?",
+    "Looking good.",
+  ],
+}
+`;
+
+exports[`store2 dispatching actions 1`] = `
+Object {
+  "messages": Array [
+    "How does it look, Neil?",
+  ],
+}
+`;
+
+exports[`store2 dispatching actions 2`] = `
+Object {
+  "messages": Array [
+    "How does it look, Neil?",
+    "Looking good.",
+  ],
+}
+`;
+
+exports[`store2 dispatching actions 3`] = `
+Object {
+  "messages": Array [
+    "Looking good.",
+  ],
+}
+`;
+
+exports[`store3 handling dispatched actions 1`] = `
+Object {
+  "messages": Array [
+    "How does it look, Neil?",
+  ],
+}
+`;
+
+exports[`store3 handling dispatched actions 2`] = `
+Object {
+  "messages": Array [
+    "How does it look, Neil?",
+    "Looking good.",
+  ],
+}
+`;
+
+exports[`store3 handling dispatched actions 3`] = `
+Object {
+  "messages": Array [
+    "Looking good.",
+  ],
+}
+`;
+
+exports[`store4 handling dispatched actions 1`] = `
+Object {
+  "messages": Array [
+    "How does it look, Neil?",
+  ],
+}
+`;
+
+exports[`store4 handling dispatched actions 2`] = `
+Object {
+  "messages": Array [
+    "How does it look, Neil?",
+    "Looking good.",
+  ],
+}
+`;
+
+exports[`store4 handling dispatched actions 3`] = `
+Object {
+  "messages": Array [
+    "Looking good.",
+  ],
+}
+`;

@@ -1,0 +1,23 @@
+{
+  "name": "react-basics",
+  "version": "0.2.0",
+  "private": true,
+  "devDependencies": {
+    "enzyme": "3.1.0",
+    "enzyme-adapter-react-16": "1.0.1",
+    "react-scripts": "1.1.1",
+    "react-test-renderer": "16.1.1",
+    "concurrently": "3.4.0"
+  },
+  "dependencies": {
+    "babel-plugin-transform-class-properties": "6.22.0",
+    "react": "16.7.0",
+    "react-dom": "16.7.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

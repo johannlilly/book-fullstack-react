@@ -1,0 +1,39 @@
+.bookPage {
+  color: #2f2f2f;
+}
+
+.bookPage h2 {
+  margin-top: 0.1em;
+  font-size: 1.9em;
+  margin-bottom: 0em;
+}
+
+.bookPage .tagline {
+  color: #2f2f2f;
+  font-style: italic;
+}
+
+.bookPage .hr {
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  margin-bottom: 0.9em;
+}
+
+.authors {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color: #8c8c8c;
+}
+
+.extra {
+  text-align: center;
+}
+
+.extra .ui.label {
+  margin: 0 auto;
+}
+
+.authorsSection {
+  margin-top: 2em;
+}
+

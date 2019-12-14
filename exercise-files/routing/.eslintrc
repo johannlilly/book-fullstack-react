@@ -1,0 +1,4 @@
+"rules": {
+  "react/prefer-stateless-function": 0,
+  "no-use-before-define": 0,
+}
