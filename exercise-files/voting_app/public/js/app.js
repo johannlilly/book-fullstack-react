@@ -1,5 +1,3 @@
-// We’ve defined the component, but we haven’t told React to do anything with it yet. 
-
 class ProductList extends React.Component {
     render() {
       return (
@@ -9,4 +7,12 @@ class ProductList extends React.Component {
       );
     }
   }
-  
+
+// tell the React framework that our component should be inserted on this page.
+// instruct React to render this ProductList inside a specific DOM node
+
+// ReactDOM.render([what], [where]);
+ReactDOM.render(
+    <ProductList />, // what to render
+    document.getElementById('content') // where to render it
+);
