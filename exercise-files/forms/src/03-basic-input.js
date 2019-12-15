@@ -5,7 +5,10 @@ document.body.appendChild(content);
 
 module.exports = class extends React.Component {
   static displayName = "03-basic-input";
-  state = { names: [] };
+  state = {
+    name: '',
+    names: [],
+  };
 
   onFormSubmit = (evt) => {
     const name = this.refs.name.value; // access value of the text field
