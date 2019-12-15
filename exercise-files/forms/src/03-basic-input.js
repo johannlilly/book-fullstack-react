@@ -1,4 +1,5 @@
 import React from 'react';
+import isEmail from 'validator/lib/isEmail';
 
 const content = document.createElement('div');
 document.body.appendChild(content);
@@ -11,19 +12,26 @@ module.exports = class extends React.Component {
       name: '',
       email: '',
     },
+    fieldErrors: {},
     people: [],
   };
 
   onFormSubmit = evt => {
-    const people = [ ...this.state.people, this.state.fields ];
+    const people = [ ...this.state.people ];
+    const person = this.state.fields;
+    const fieldErrors = this.validate(person);
+    this.setState({fieldErrors});
+    evt.preventDefault();
+
+    if (Object.keys(fieldErrors).length) return;
+
     this.setState({
-      people,
+      people: people.concat(person),
       fields: { 
         name: '',
-        email: ''
+        email: '',
       }
     });
-    evt.preventDefault();
   };
 
   onInputChange = evt => {
@@ -31,6 +39,14 @@ module.exports = class extends React.Component {
     fields[evt.target.name] = evt.target.value;
     this.setState({ fields });
   };
+
+  validate = person => {
+    const errors = {};
+    if (!person.name) errors.name = 'Name Required';
+    if (!person.email) errors.email = 'Email Required';
+    if (person.email && !isEmail(person.email)) errors.email = 'Invalid Email';
+    return errors;
+  }
 
   render() {
     return (
@@ -46,7 +62,11 @@ module.exports = class extends React.Component {
             onChange={this.onInputChange}
           />
 
-         <input
+        <span style={{color: 'red'}}>{this.state.fieldErrors.name}</span>
+
+        <br/>
+
+        <input
             placeholder='Email'
             form='signUp'
             name='email'
@@ -57,6 +77,10 @@ module.exports = class extends React.Component {
 
           <input type='submit' />
         </form>
+
+        <span style={{color: 'red'}}>{this.state.fieldErrors.email}</span>
+
+        <br/>
 
         <div>
           <h3>People</h3>
