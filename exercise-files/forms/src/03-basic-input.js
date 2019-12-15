@@ -23,8 +23,9 @@ module.exports = class extends React.Component {
         <form onSubmit={this.onFormSubmit} id="signUp" name="signUp">
           <input
             placeholder='Name'
-            ref='name'
             form="signUp"
+            value={this.state.name}
+            onChange={this.onNameChange}
           />
 
           <input type='submit' />
