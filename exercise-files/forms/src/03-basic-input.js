@@ -14,14 +14,22 @@ module.exports = class extends React.Component {
     people: [],
   };
 
-  onFormSubmit = (evt) => {
-    const names = [ ...this.state.names, this.state.name ];
-    this.setState({ names: names, name: '' });
+  onFormSubmit = evt => {
+    const people = [ ...this.state.people, this.state.fields ];
+    this.setState({
+      people,
+      fields: { 
+        name: '',
+        email: ''
+      }
+    });
     evt.preventDefault();
   };
 
-  onInputChange = (evt) => {
-    this.setState({ name: evt.target.value });
+  onInputChange = evt => {
+    const fields = Object.assign({}, this.state.fields);
+    fields[evt.target.name] = evt.target.value;
+    this.setState({ fields });
   };
 
   render() {
