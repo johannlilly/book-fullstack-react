@@ -6,12 +6,9 @@ document.body.appendChild(content);
 module.exports = class extends React.Component {
   static displayName = "01-basic-button";
 
-  onGreatClick = (evt) => {
-    console.log('The user clicked button-1: great', evt);
-  };
-
-  onAmazingClick = (evt) => {
-    console.log('The user clicked button-2: amazing', evt);
+  onButtonClick = (evt) => {
+    const btn = evt.target;
+    console.log(`The user clicked ${btn.name}: ${btn.value}`)
   };
 
   render() {
@@ -22,7 +19,7 @@ module.exports = class extends React.Component {
         <button
           name='button-1'
           value='great'
-          onClick={this.onGreatClick}
+          onClick={this.onButtonClick}
         >
           Great
         </button>
@@ -30,7 +27,7 @@ module.exports = class extends React.Component {
         <button
           name='button-2'
           value='amazing'
-          onClick={this.onAmazingClick}
+          onClick={this.onButtonClick}
         >
           Amazing
         </button>
