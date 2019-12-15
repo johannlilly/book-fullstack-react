@@ -7,8 +7,11 @@ module.exports = class extends React.Component {
   static displayName = "03-basic-input";
 
   state = {
-    name: '',
-    names: [],
+    fields: {
+      name: '',
+      email: '',
+    },
+    people: [],
   };
 
   onFormSubmit = (evt) => {
@@ -17,7 +20,7 @@ module.exports = class extends React.Component {
     evt.preventDefault();
   };
 
-  onNameChange = (evt) => {
+  onInputChange = (evt) => {
     this.setState({ name: evt.target.value });
   };
 
@@ -29,17 +32,32 @@ module.exports = class extends React.Component {
         <form onSubmit={this.onFormSubmit} id="signUp" name="signUp">
           <input
             placeholder='Name'
-            form="signUp"
-            value={this.state.name}
-            onChange={this.onNameChange}
+            form='signUp'
+            name='name'
+            value={this.state.fields.name}
+            onChange={this.onInputChange}
+          />
+
+         <input
+            placeholder='Email'
+            form='signUp'
+            name='email'
+            type='email'
+            value={this.state.fields.email}
+            onChange={this.onInputChange}
           />
 
           <input type='submit' />
         </form>
+
         <div>
-          <h3>Names</h3>
+          <h3>People</h3>
           <ul>
-            { this.state.names.map((name, i) => <li key={i}>{name}</li>) }
+            { this.state.people.map(({name, email}, i) => (
+              <li key={i}>
+                {name} ({email})
+              </li>
+            ))}
           </ul>
         </div>
       </div>
