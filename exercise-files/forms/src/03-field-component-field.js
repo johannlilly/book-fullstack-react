@@ -19,7 +19,7 @@ module.exports = class extends React.Component {
     return {value: nextProps.value}
   }
 
-  onChange (evt) {
+  onChange = evt => {
     const name = this.props.name;
     const value = evt.target.value;
     const error = this.props.validate ? this.props.validate(value) : false;
@@ -39,7 +39,6 @@ module.exports = class extends React.Component {
         />
         <span style={{color: 'red'}}>{this.state.error}</span>
       </div>
-    )
+    );
   }
-
 };
