@@ -8,7 +8,7 @@
     "create-react-class": "15.6.2",
     "faker": "4.1.0",
     "font-awesome": "4.7.0",
-    "jquery": "3.2.1",
+    "jquery": "3.5.0",
     "jquery-ui": "1.12.1",
     "moment": "2.19.1",
     "react": "16.7.0",
