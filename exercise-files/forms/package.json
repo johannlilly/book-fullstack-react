@@ -4,7 +4,7 @@
   "private": true,
   "author": "David Guttman <david@guttman.io> (http://davidguttman.com/)",
   "devDependencies": {
-    "react-scripts": "0.9.5",
+    "react-scripts": "5.0.1",
     "concurrently": "3.4.0"
   },
   "dependencies": {
